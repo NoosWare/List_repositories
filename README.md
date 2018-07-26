@@ -28,17 +28,19 @@ C++ API which gives you access to the Noos platform services. It requires a prev
 
 Services availables in the platform:
 
-| ----------------------- | --------------- | ----------------- |
+
 | Human-Robot Interaction | Robot autonomy  | Robot autonomy    |
-|                         | Navigation      | Computer Vision   |
 | ----------------------- | --------------- | ----------------- |
+|                         | **Navigation**    | **Computer Vision**   |
+|      |    |     |
 | Human Detection         | SLAM with LIDAR    | Object Recognition |
 | Face Detection          | Create Map         | QR Recognition |
 | Face Recognition        | Get Map            | ORB Features |
-| Age Detection           | Path Planning      |   |
-| Gender Detection        |                    |   |  
-| Face Expressions        |                    |   | 
-| NLP - Dialogue Systems  |                    |   |      
+| Age Detection           | Path Planning      |    |
+| Gender Detection        |                    |    |  
+| Face Expressions        |                    |    | 
+| NLP - Dialogue Systems  |                    |    |    
+
 
 **Dependencies:**
 
@@ -75,7 +77,7 @@ Tutorials for using the Noos Cloud API in C++ from scratch.
 
 **Description:**
 
-Tutorials using Noos API with ROS to show the compatibility. It includes examples like SLAM using a rover with the rplidar v2, how to do a simple loop or use a vision_batch service.
+Tutorials using Noos API with ROS to show the compatibility. It includes examples like `SLAM` using a rover with the `rplidar v2`, how to do a simple `loop` or use a `vision batch` service.
 
 **Dependencies:**
 
@@ -126,8 +128,8 @@ Application to use computer vision algorithms on noos (face detection, emotion, 
 
 **Description:**
 
-It is and example using the rover with the rplidar v2 and ROS. It is included in the repository [Noos ROS tutorials](#noos-ros-tutorials)
-[![Rover](images/rover.jpg)]
+It is and example using the rover with the `rplidar v2` and ROS. It is included in the repository [Noos ROS tutorials](#noos-ros-tutorials)
+![Rover](images/rover.jpg)
 
 **Dependencies:**
 
@@ -191,9 +193,9 @@ Application to show NAO robot moving and looking for faces to recognize it and t
 
 **Description:**
 
-It connects the Linux PC of MARIO with the Windows PC for doing Speech to Text service through 'Google Cloud' or 
-'Dragon Natural Speaking' software. It is required to have an account or the license of the software mentioned.
-This repository is used for running the [MARIO APP](#Ericsson public APP)
+It connects the Linux PC of MARIO with the Windows PC for doing Speech to Text service through `Google Cloud` or 
+`Dragon Natural Speaking` software. It is required to have an account or the license of the software mentioned.
+This repository is used for running the [MARIO APP](#ericsson-public-app)
 
 **Dependencies:**
 
