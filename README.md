@@ -1,4 +1,6 @@
-# List_repositories
+![Noos](images/Noos.png)
+
+# List of repositories
 -------------
 List of all the repositories of NoosWare
 
@@ -12,7 +14,7 @@ List of all the repositories of NoosWare
 - [NAO APP](#nao-vision-example)
 - [S2T Tool](#ericsson-hri)
 
-_NOTE: The repositories not finish are not included in this list_
+_NOTE: The repositories not finished are not included in this list_
 
 ## Noos-API
 
@@ -25,17 +27,18 @@ _NOTE: The repositories not finish are not included in this list_
 C++ API which gives you access to the Noos platform services. It requires a previous registration in the [noos](noos.cloud) webpage. 
 
 Services availables in the platform:
-|-----------------------|----------------------------|-|
-|Human-Robot Interaction|Robot autonomy              | |
-|                       |Navigation | Computer Vision  |
-|-----------------------|-----------|------------------|
-|Human Detection |   SLAM with LIDAR  |  Object Recognition|
-|Face Detection  | Create Map  | QR Recognition |
-|Face Recognition|   Get Map   |ORB Features |
-|Age Detection   |Path Planning|   |
-|Gender Detection|      | |  
-|Face Expressions|      | | 
-|NLP - Dialogue Systems | |       
+
+|-----------------------|---------------|------------------|
+|Human-Robot Interaction|Robot autonomy | Robot autonomy   |
+|                       |Navigation     | Computer Vision  |
+|-----------------------|---------------|------------------|
+|Human Detection        | SLAM with LIDAR    | Object Recognition|
+|Face Detection         | Create Map         | QR Recognition |
+|Face Recognition       | Get Map            | ORB Features |
+|Age Detection          | Path Planning      |   |
+|Gender Detection       |                    |   |  
+|Face Expressions       |                    |   | 
+|NLP - Dialogue Systems |                    |   |      
 
 **Dependencies:**
 
@@ -123,7 +126,7 @@ Application to use computer vision algorithms on noos (face detection, emotion, 
 
 **Description:**
 
-It is and example using the rover with the rplidar v2 and ROS. It is included in the repository [Noos ROS tutorials](#Noos ROS Tutorials)
+It is and example using the rover with the rplidar v2 and ROS. It is included in the repository [Noos ROS tutorials](#noos-ros-tutorials)
 [![Rover](images/rover.jpg)]
 
 **Dependencies:**
