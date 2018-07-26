@@ -1,4 +1,4 @@
-![Noos](images/Noos.png)
+<img src="images/Noos.png" width="200" height="120" />
 
 # List of repositories
 -------------
@@ -28,17 +28,17 @@ C++ API which gives you access to the Noos platform services. It requires a prev
 
 Services availables in the platform:
 
-|-----------------------|---------------|------------------|
-|Human-Robot Interaction|Robot autonomy | Robot autonomy   |
-|                       |Navigation     | Computer Vision  |
-|-----------------------|---------------|------------------|
-|Human Detection        | SLAM with LIDAR    | Object Recognition|
-|Face Detection         | Create Map         | QR Recognition |
-|Face Recognition       | Get Map            | ORB Features |
-|Age Detection          | Path Planning      |   |
-|Gender Detection       |                    |   |  
-|Face Expressions       |                    |   | 
-|NLP - Dialogue Systems |                    |   |      
+| ----------------------- | --------------- | ----------------- |
+| Human-Robot Interaction | Robot autonomy  | Robot autonomy    |
+|                         | Navigation      | Computer Vision   |
+| ----------------------- | --------------- | ----------------- |
+| Human Detection         | SLAM with LIDAR    | Object Recognition |
+| Face Detection          | Create Map         | QR Recognition |
+| Face Recognition        | Get Map            | ORB Features |
+| Age Detection           | Path Planning      |   |
+| Gender Detection        |                    |   |  
+| Face Expressions        |                    |   | 
+| NLP - Dialogue Systems  |                    |   |      
 
 **Dependencies:**
 
