@@ -2,31 +2,33 @@
 -------------
 List of all the repositories of NoosWare
 
-- [Noos API](#Noos API)
-- [Noos API tutorials](#Noos API tutorials)
-- [Noos ROS tutorials](#Noos ROS tutorials)
-- [Noos Python tutorials](#Noos Python tutorials)
-- [Noos Web APP](#Innovate APP)
-- [SLAM using Noos and ROS](#Ros SLAM example)
-- [MARIO robot APP](#Ericsson public APP)
-- [NAO APP](#NAO vision example)
-- [S2T Tool](#ericsson hri)
+- [Noos API](#noos-api)
+- [Noos API tutorials](#noos-api-tutorials)
+- [Noos ROS tutorials](#noos-ros-tutorials)
+- [Noos Python tutorials](#noos-python-tutorials)
+- [Noos Web APP](#innovate-app)
+- [SLAM using Noos and ROS](#ros-slam-example)
+- [MARIO robot APP](#ericsson-public-app)
+- [NAO APP](#nao-vision-example)
+- [S2T Tool](#ericsson-hri)
 
 _NOTE: The repositories not finish are not included in this list_
 
-## Noos API
+## Noos-API
 
 **URL:** [https://github.com/NoosWare/noos-api-cpp](https://github.com/NoosWare/noos-api-cpp)
+
 **Language:** C++
+
 **Description:**
 
 C++ API which gives you access to the Noos platform services. It requires a previous registration in the [noos](noos.cloud) webpage. 
 
 Services availables in the platform:
-|-------|---------|
-|Human-Robot Interaction|Robot autonomy              |
-|                       |Navigation | Computer Vision|
-|-----------------------|-----------|----------------|
+|-----------------------|----------------------------|-|
+|Human-Robot Interaction|Robot autonomy              | |
+|                       |Navigation | Computer Vision  |
+|-----------------------|-----------|------------------|
 |Human Detection |   SLAM with LIDAR  |  Object Recognition|
 |Face Detection  | Create Map  | QR Recognition |
 |Face Recognition|   Get Map   |ORB Features |
@@ -36,6 +38,7 @@ Services availables in the platform:
 |NLP - Dialogue Systems | |       
 
 **Dependencies:**
+
 The following dependencies are required to build the C++ API:
 
 - gcc/g++ >= 4.9
@@ -43,10 +46,12 @@ The following dependencies are required to build the C++ API:
 - cmake >= 2.8
 - libssl-dev >= 1.0.1
 
-## Noos API tutorials
+## Noos-API-tutorials
 
 **URL:** [https://github.com/NoosWare/noos_api_tutorials](https://github.com/NoosWare/noos_api_tutorials)
+
 **Language:** C++
+
 **Description:**
 
 Tutorials for using the Noos Cloud API in C++ from scratch.
@@ -59,10 +64,12 @@ Tutorials for using the Noos Cloud API in C++ from scratch.
 - cmake >= 2.8
 - libssl-dev >= 1.0.1
 
-## Noos ROS tutorials
+## Noos-ROS-tutorials
 
 **URL:** [https://github.com/NoosWare/noos_ros_tutorials](https://github.com/NoosWare/noos_ros_tutorials)
+
 **Language:** C++
+
 **Description:**
 
 Tutorials using Noos API with ROS to show the compatibility. It includes examples like SLAM using a rover with the rplidar v2, how to do a simple loop or use a vision_batch service.
@@ -76,10 +83,12 @@ Tutorials using Noos API with ROS to show the compatibility. It includes example
 - cmake >= 2.8
 - libssl-dev >= 1.0.1
 
-## Noos Python tutorials
+## Noos-Python-tutorials
 
 **URL:** [https://github.com/NoosWare/noos-python-tutorials](https://github.com/NoosWare/noos-python-tutorials) 
+
 **Language:** Python
+
 **Description:**
 
 Tutorials for using the Noos Cloud in case the user is not familiar with C++ language. It is well explained how to configure your environment for using python with this repository.
@@ -91,10 +100,12 @@ Tutorials for using the Noos Cloud in case the user is not familiar with C++ lan
 - python >= 3.6.5
 - opencv-python
 
-## Innovate APP
+## Innovate-APP
 
 **URL:** [https://github.com/NoosWare/innovate_app](https://github.com/NoosWare/innovate_app)
+
 **Language:** Javascript
+
 **Description:**
 
 Application to use computer vision algorithms on noos (face detection, emotion, age, gender). It is using a NodeJS with a simple web interface using JQuery.
@@ -104,10 +115,12 @@ Application to use computer vision algorithms on noos (face detection, emotion, 
 - npm
 - node js
 
-## Ros SLAM example
+## Ros-SLAM-example
 
 **URL:** [https://github.com/NoosWare/ros_slam_example](https://github.com/NoosWare/ros_slam_example)
+
 **Language:** C++
+
 **Description:**
 
 It is and example using the rover with the rplidar v2 and ROS. It is included in the repository [Noos ROS tutorials](#Noos ROS Tutorials)
@@ -122,15 +135,17 @@ It is and example using the rover with the rplidar v2 and ROS. It is included in
 - cmake >= 2.8
 - libssl-dev >= 1.0.1
 
-## Ericsson public APP
+## Ericsson-public-APP
 
 **URL:** [https://github.com/NoosWare/ericsson_public_app](https://github.com/NoosWare/ericsson_public_app)
+
 **Language:** Javascript
+
 **Description:**
 
 Public application working with the Mario project which illustrates the chatbot with dialogue interactions
 and SLAM using waypoints.
-[![Video demostration](https://www.youtube.com/watch?v=iCGpHmbJnOY/0.jpg)](https://www.youtube.com/watch?v=iCGpHmbJnOY)
+[Video demostration](https://www.youtube.com/watch?v=iCGpHmbJnOY)
 
 
 **Dependencies:**
@@ -145,14 +160,16 @@ and SLAM using waypoints.
 - repository MARIO (private repository)
 
 
-## NAO vision example
+## NAO-vision-example
 
 **URL:** [https://github.com/NoosWare/nao_vision_example.git](https://github.com/NoosWare/nao_vision_example.git)
+
 **Language:** C++
+
 **Description:**
 
 Application to show NAO robot moving and looking for faces to recognize it and tell the age, gender and expression. 
-[![Video demostration](https://www.youtube.com/watch?v=P5v-DuxDO68&t=49s/0.jpg)](https://www.youtube.com/watch?v=P5v-DuxDO68&t=49s)
+[Video demostration](https://www.youtube.com/watch?v=P5v-DuxDO68&t=49s)
 
 **Dependencies:**
 
@@ -163,10 +180,12 @@ Application to show NAO robot moving and looking for faces to recognize it and t
 - cmake >= 2.8
 - libssl-dev >= 1.0.1
 
-## ericsson hri
+## Ericsson-hri
 
 **URL:** [https://github.com/NoosWare/ericsson_hri](https://github.com/NoosWare/ericsson_hri)
+
 **Language:** Python
+
 **Description:**
 
 It connects the Linux PC of MARIO with the Windows PC for doing Speech to Text service through 'Google Cloud' or 
