@@ -8,11 +8,11 @@ List of all the repositories of NoosWare
 - [Noos API tutorials](#noos-api-tutorials)
 - [Noos ROS tutorials](#noos-ros-tutorials)
 - [Noos Python tutorials](#noos-python-tutorials)
-- [Noos Web APP](#innovate-app)
+- [Noos Web APP](#noos-web-app)
 - [SLAM using Noos and ROS](#ros-slam-example)
-- [MARIO robot APP](#ericsson-public-app)
+- [MARIO robot APP](#mario-app)
 - [NAO APP](#nao-vision-example)
-- [S2T Tool](#ericsson-hri)
+- [Human Robot Interface](#human-robot-interface)
 
 _NOTE: The repositories not finished are not included in this list_
 
@@ -105,15 +105,17 @@ Tutorials for using the Noos Cloud in case the user is not familiar with C++ lan
 - python >= 3.6.5
 - opencv-python
 
-## Innovate-APP
+## Noos-Web-APP
 
-**URL:** [https://github.com/NoosWare/innovate_app](https://github.com/NoosWare/innovate_app)
+**URL:** [https://github.com/NoosWare/Noos_Web_APP](https://github.com/NoosWare/Noos_Web_APP)
 
 **Language:** Javascript
 
 **Description:**
 
 Application to use computer vision algorithms on noos (face detection, emotion, age, gender). It is using a NodeJS with a simple web interface using JQuery.
+
+This application was used in the _Innovate UK_ event in 2017. In [this video](https://www.youtube.com/watch?v=itKD7PrtiEU) you'll see how the application works.
 
 **Dependencies:**
 
@@ -140,9 +142,9 @@ It is and example using the rover with the `rplidar v2` and ROS. It is included 
 - cmake >= 2.8
 - libssl-dev >= 1.0.1
 
-## Ericsson-public-APP
+## MARIO-APP
 
-**URL:** [https://github.com/NoosWare/ericsson_public_app](https://github.com/NoosWare/ericsson_public_app)
+**URL:** [https://github.com/NoosWare/MARIO_APP](https://github.com/NoosWare/MARIO_APP)
 
 **Language:** Javascript
 
@@ -152,6 +154,7 @@ Public application working with the Mario project which illustrates the chatbot 
 and SLAM using waypoints.
 [Video demostration](https://www.youtube.com/watch?v=iCGpHmbJnOY)
 
+This application was used in [_Ericsson 5G_](https://www.youtube.com/watch?v=ZjzhbM3MZEM) events around Europe during November 2017.
 
 **Dependencies:**
 
@@ -161,7 +164,7 @@ and SLAM using waypoints.
 - python
 - Google Cloud SDK
 - repository S2T_win32 (private repository)
-- repository ericsson_hri
+- repository human-robot interface
 - repository MARIO (private repository)
 
 
@@ -185,9 +188,9 @@ Application to show NAO robot moving and looking for faces to recognize it and t
 - cmake >= 2.8
 - libssl-dev >= 1.0.1
 
-## Ericsson-hri
+## Human-robot-interface
 
-**URL:** [https://github.com/NoosWare/ericsson_hri](https://github.com/NoosWare/ericsson_hri)
+**URL:** [https://github.com/NoosWare/human-robot_interface](https://github.com/NoosWare/human-robot_interface)
 
 **Language:** Python
 
@@ -195,7 +198,7 @@ Application to show NAO robot moving and looking for faces to recognize it and t
 
 It connects the Linux PC of MARIO with the Windows PC for doing Speech to Text service through `Google Cloud` or 
 `Dragon Natural Speaking` software. It is required to have an account or the license of the software mentioned.
-This repository is used for running the [MARIO APP](#ericsson-public-app)
+This repository is used for running the [MARIO APP](#mario-app)
 
 **Dependencies:**
 
