@@ -8,11 +8,13 @@ List of all the repositories of NoosWare
 - [Noos API tutorials](#noos-api-tutorials)
 - [Noos ROS tutorials](#noos-ros-tutorials)
 - [Noos Python tutorials](#noos-python-tutorials)
+- [Noos Javascript tutorials](#noos-javascript-tutorials)
 - [Noos Web APP](#noos-web-app)
 - [SLAM using Noos and ROS](#ros-slam-example)
 - [MARIO robot APP](#mario-app)
 - [NAO APP](#nao-vision-example)
 - [Human Robot Interface](#human-robot-interface)
+- [COZMO APP](#cozmo-app)
 
 _NOTE: The repositories not finished are not included in this list_
 
@@ -104,6 +106,24 @@ Tutorials for using the Noos Cloud in case the user is not familiar with C++ lan
 - pyenv
 - python >= 3.6.5
 - opencv-python
+
+
+## Noos-Javascript-tutorials)
+
+
+**URL:** [https://github.com/NoosWare/noos_javascript_tutorials](https://github.com/NoosWare/noos_javascript_tutorials) 
+
+**Language:** Javascript
+
+**Description:**
+
+Tutorials for using the Noos Cloud in case the user is not familiar with C++ language. It is well explained how to configure your environment for using javascript with this repository.
+
+**Dependencies:**
+
+- nodejs
+- npm
+
 
 ## Noos-Web-APP
 
@@ -205,3 +225,26 @@ This repository is used for running the [MARIO APP](#mario-app)
 - python
 - Google Cloud SDK or Dragon NaturalSpeaking
 - MARIO repository (private)
+
+## COZMO-APP
+
+**URL:** [https://github.com/NoosWare/human-robot_interface](https://github.com/NoosWare/human-robot_interface)
+
+**Language:** Python
+
+**Description:**
+
+Application to show COZMO using some Computer Vision services like ORB and object recognition. 
+Games perfect for kids! It is never too soon for starting to enjoy robots!
+![COZMO robot](https://www.stuff.tv/sites/stuff.tv/files/brands/Anki/Cozmo/cozmo-wheelie-e.jpg)
+
+**Dependencies:**
+
+- python
+- pyenv
+- pip
+- [COZMO SDK](http://cozmosdk.anki.com/docs/)
+- cozmo[camera]
+- Pillow 
+- requests
+
