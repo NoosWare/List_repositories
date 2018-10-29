@@ -228,7 +228,7 @@ This repository is used for running the [MARIO APP](#mario-app)
 
 ## COZMO-APP
 
-**URL:** [https://github.com/NoosWare/human-robot_interface](https://github.com/NoosWare/human-robot_interface)
+**URL:** [https://github.com/NoosWare/COZMO_APP](https://github.com/NoosWare/COZMO_APP)
 
 **Language:** Python
 
