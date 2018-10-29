@@ -108,7 +108,7 @@ Tutorials for using the Noos Cloud in case the user is not familiar with C++ lan
 - opencv-python
 
 
-## Noos-Javascript-tutorials)
+## Noos-Javascript-tutorials
 
 
 **URL:** [https://github.com/NoosWare/noos_javascript_tutorials](https://github.com/NoosWare/noos_javascript_tutorials) 
