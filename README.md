@@ -6,6 +6,7 @@ List of all the repositories of NoosWare
 
 - [Noos API](#noos-api)
 - [Noos API tutorials](#noos-api-tutorials)
+- [Noos ROS packages](#noos-ros-packages)
 - [Noos ROS tutorials](#noos-ros-tutorials)
 - [Noos Python tutorials](#noos-python-tutorials)
 - [Noos Javascript tutorials](#noos-javascript-tutorials)
@@ -65,6 +66,36 @@ Tutorials for using the Noos Cloud API in C++ from scratch.
 
 **Dependencies:**
 
+- Noos API
+- gcc/g++ >= 4.9
+- boost >= 1.58
+- cmake >= 2.8
+- libssl-dev >= 1.0.1
+
+## Noos-ROS-packages
+
+**URL:** [https://github.com/NoosWare/ros_packages_noos_api](https://github.com/NoosWare/ros_packages_noos_api)
+
+**Language:** C++
+
+**Description:**
+
+ROS packages to use the Cloud directly with NOOS. You still can create your own packages as it is explained in [Noos ROS tutorials](#noos-ros-tutorials).
+
+| Packages | 
+| ----------------------- | 
+| ICP_SLAM
+| noos_delete_map |
+| Object_recognition |
+| ORB       | 
+| delete_orb_model          | 
+| Face_detection        |
+| Vision_batch       |
+| Chatbot | 
+
+**Dependencies:**
+
+- ROS (Robot Operative System)
 - Noos API
 - gcc/g++ >= 4.9
 - boost >= 1.58
