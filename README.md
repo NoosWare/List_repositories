@@ -27,7 +27,7 @@ _NOTE: The repositories not finished are not included in this list_
 
 **Description:**
 
-C++ API which gives you access to the Noos platform services. It requires a previous registration in the [noos](noos.cloud) webpage. 
+C++ API which gives you access to the Noos platform services. It requires a previous registration in the [noos](https://noos.cloud) webpage. 
 
 Services availables in the platform:
 
